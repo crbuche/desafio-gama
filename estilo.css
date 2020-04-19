@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+/*Início*/
+body{
+  font-family: 'Roboto Condensed';
+}
+h1{
+text-align: center;
+padding: 10px;
+}
+
+/* NAVBAR */
+.nav ul {
+  list-style: none;
+  background: #f0caab;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  display: inline-block;
+  border-bottom: 0px solid black;
+}
+.nav a {
+  text-decoration: none;
+  color:black;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+}
+.nav a:hover {
+  background: #7f3491;
+  transition: 0.4s;
+}
+
+/*CONTEÚDO*/
+.container img {
+  max-width:500px;
+  max-height:450px;
+  width: auto;
+  height: auto;
+}
+
+.container h3 {
+  max-width:500px;
+  max-height:450px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.container p {
+  max-width:500px;
+  max-height:450px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.container a {
+  list-style-type: none;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* RODAPE */
+footer {
+    background-color: #f0caab;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
